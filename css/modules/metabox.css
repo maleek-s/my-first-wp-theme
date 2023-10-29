@@ -1,0 +1,44 @@
+.metabox {
+  background-color: #FAF0CA;
+  border-radius: 3px;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.07);
+}
+.metabox--position-up {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+.metabox--with-home-link {
+  padding: 0;
+}
+.metabox__main {
+  padding: 10px 15px 10px 11px;
+}
+.metabox p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: color(#FAF0CA l(-45%) s(-33%));
+}
+.metabox a {
+  color: color(#FAF0CA l(-45%) s(-33%));
+  text-decoration: none;
+  font-weight: bold;
+}
+.metabox a:hover {
+  text-decoration: underline;
+}
+.metabox .metabox__blog-home-link {
+  background-color: #0D3B66;
+  color: #FFF;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 3px 0 0 3px;
+  font-weight: normal;
+}
+.metabox .metabox__blog-home-link:hover {
+  text-decoration: none;
+  background-color: color(#0D3B66 l(-5%));
+}/*# sourceMappingURL=metabox.css.map */

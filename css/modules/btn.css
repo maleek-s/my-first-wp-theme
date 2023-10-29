@@ -1,0 +1,105 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.19rem;
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+}
+.btn--small {
+  font-size: 0.88rem;
+  padding: 7px 13px;
+  font-weight: 300;
+}
+.btn--with-photo {
+  padding-left: 40px;
+  position: relative;
+}
+.btn--orange {
+  background-color: #EE964B;
+}
+.btn--orange:hover {
+  background: linear-gradient(#EE964B, color(#EE964B b(30%) s(80%)));
+}
+.btn--dark-orange {
+  background-color: #F95738;
+}
+.btn--dark-orange:hover {
+  background: linear-gradient(#F95738, color(#F95738 b(40%) s(80%)));
+}
+.btn--blue {
+  background-color: #0D3B66;
+}
+.btn--blue:hover {
+  background: linear-gradient(color(#0D3B66 b(-16%)), #0D3B66);
+}
+.btn--yellow {
+  background-color: #F4D35E;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
+}
+.btn--yellow:hover {
+  background: linear-gradient(#F4D35E, color(#F4D35E b(40%) s(80%)));
+}
+.btn--beige {
+  background-color: #FAF0CA;
+  color: #173f58;
+}
+.btn--beige:hover {
+  background-color: #F4D35E;
+}
+.btn--gray {
+  background-color: #222;
+}
+.btn--white {
+  background-color: #FFF;
+  color: #173f58;
+}
+.btn--white:hover {
+  background-color: #DDD;
+}
+.btn--large {
+  font-size: 1.3rem;
+  padding: 16px 34px;
+  border-radius: 7px;
+}
+@media (min-width: 530px) {
+  .btn--large {
+    font-size: 1.9rem;
+  }
+}
+.btn--inactive {
+  background-color: transparent;
+  cursor: default;
+  color: #333;
+}
+
+.button {
+  width: 170px;
+  border-radius: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-2 {
+  color: #fff;
+  border: 3px solid #03a4ed;
+  background-image: linear-gradient(30deg, #03a4ed 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  transition: background 300ms ease-in-out;
+}
+
+.button-2:hover {
+  background-position: 100%;
+  color: #03a4ed;
+}/*# sourceMappingURL=btn.css.map */
